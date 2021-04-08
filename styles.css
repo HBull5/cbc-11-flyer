@@ -1,210 +1,216 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 :root {
-	font-size: 30px;
+    font-size: 30px;
 }
 
 body {
-	height: 100vh;
-	width: 100%;
-	background: url('/img/code.jpg');
-	background-size: cover;
-	background-position: center center;
-	background-repeat: no-repeat;
-	display: flex;
-	justify-content: center;
-	font-family: sans-serif;
-	text-align: center;
+    height: 100vh;
+    width: 100%;
+    background: url("/img/code.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    text-align: center;
 }
 
 .container {
-	height: 100%;
-	width: 75%;
-	padding: 1rem;
-	background: #fff;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+    height: 100%;
+    width: 75%;
+    padding: 1rem;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .container > * {
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .ch-logo {
-	height: 10%;
-	width: 100%;
-	background: url('/img/clubhouse_logo.png');
-	background-size: contain;
-	background-position: center center;
-	background-repeat: no-repeat;
+    height: 10%;
+    width: 100%;
+    background: url("/img/clubhouse_logo.png");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 .join {
-	height: 10%;
+    height: 10%;
 }
 
 .cbc {
-	height: 15%;
-	font-size: 3rem;
-	letter-spacing: 0.3rem;
-	color: #41b5e4;
+    height: 15%;
+    font-size: 3rem;
+    letter-spacing: 0.3rem;
+    color: #41b5e4;
 }
 
 .class {
-	height: 10%;
-	font-size: 1.25rem;
-	letter-spacing: 0.3rem;
-	margin-bottom: 3rem;
+    height: 10%;
+    font-size: 1.25rem;
+    letter-spacing: 0.3rem;
+    margin-bottom: 3rem;
 }
 
 .date {
-	height: 5%;
-	font-size: 1.5rem;
+    height: 5%;
+    font-size: 1.5rem;
 }
 
 .location {
-	height: 20%;
-	letter-spacing: 0.2rem;
+    height: 25%;
+    letter-spacing: 0.2rem;
 }
 
 .partners {
-	height: 15%;
-	width: 75%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 0.8rem;
-	flex-direction: row;
+    height: 15%;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    flex-direction: row;
 }
 
 .partner-logos {
-	height: 100%;
-	display: flex;
+    height: 100%;
+    display: flex;
 }
 
 .partners > * {
-	height: 100%;
-	width: 50%;
+    height: 100%;
+    width: 50%;
 }
 
 .partners section {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .atc-logo {
-	height: 100%;
-	width: 50%;
-	background: url('/img/ATC.jpg');
-	background-size: contain;
-	background-position: center center;
-	background-repeat: no-repeat;
+    height: 100%;
+    width: 50%;
+    background: url("/img/ATC.jpg");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 .wsga-logo {
-	height: 100%;
-	width: 50%;
-	background: url('/img/WSGA.jpg');
-	background-size: contain;
-	background-position: center center;
-	background-repeat: no-repeat;
+    height: 100%;
+    width: 50%;
+    background: url("/img/WSGA.jpg");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 @media (max-width: 1150px) {
-	:root {
-		font-size: 16px;
-	}
+    :root {
+        font-size: 16px;
+    }
 
-	.container {
-		width: 100%;
-	}
+    .container {
+        width: 100%;
+    }
 
-	.partners {
-		flex-direction: column;
-		width: 100%;
-	}
+    .partners {
+        flex-direction: column;
+        width: 100%;
+    }
 
-	.partners section {
-		height: 40%;
-	}
+    .partners section {
+        height: 40%;
+    }
 
-	.partners-logos {
-		height: 60%;
-	}
+    .partners-logos {
+        height: 60%;
+    }
 }
 
-@media (max-width: 700px) {
-	.cbc {
-		height: 25%;
-	}
+@media (max-width: 900px) {
+    .cbc {
+        height: 25%;
+    }
 
-	.class {
-		margin-bottom: 1rem;
-	}
+    .class {
+        margin-bottom: 1rem;
+    }
 
-	.date {
-		margin-bottom: 1rem;
-	}
+    .date {
+        margin-bottom: 1rem;
+    }
 
-	.location {
-		margin-bottom: 1rem;
-	}
+    .location {
+        margin-bottom: 1rem;
+    }
 
-	.partners section {
-		height: 50%;
-	}
+    .partners section {
+        height: 50%;
+    }
 
-	.partners-logos {
-		height: 50%;
-	}
+    .partners-logos {
+        height: 50%;
+    }
 }
 
-@media (max-height: 700px) {
-	.cbc {
-		height: 25%;
-		font-size: 2rem;
-	}
+@media (max-height: 900px) {
+    .cbc {
+        height: 25%;
+        font-size: 2rem;
+    }
 
-	.class {
-		margin-bottom: 1rem;
-	}
+    .class {
+        margin-bottom: 1rem;
+    }
 
-	.date {
-		margin-bottom: 1rem;
-	}
+    .date {
+        margin-bottom: 1rem;
+    }
 
-	.location {
-		margin-bottom: 1rem;
-	}
+    .location {
+        margin-bottom: 1rem;
+    }
 
-	.partners {
-		flex-direction: row;
-		width: 75%;
-	}
+    .partners {
+        flex-direction: row;
+        width: 75%;
+    }
 
-	.partners section {
-		height: auto;
-	}
+    .partners section {
+        height: auto;
+    }
 
-	.partners-logos {
-		height: auto;
-	}
+    .partners-logos {
+        height: auto;
+    }
+}
+
+@media (max-height: 600px) {
+    :root {
+        font-size: 12px;
+    }
 }
 
 @media (min-width: 1800px) {
-	.container {
-		width: 50%;
-	}
+    .container {
+        width: 50%;
+    }
 }
